@@ -1,0 +1,14 @@
+Alignment of large language models with human preferences is a central problem in modern AI research.
+Techniques such as supervised finetuning, reinforcement learning from human feedback, and red-teaming
+are commonly explored. Recent work suggests that scaling both data and model size improves performance,
+but can also amplify misalignment if not carefully managed.
+
+Several studies evaluate alignment along dimensions such as helpfulness, honesty, and harmlessness.
+Researchers experiment with reward modeling, preference optimization, and hybrid approaches that
+combine rule-based constraints with neural methods.
+
+Despite promising progress, open questions remain around robustness, distribution shift, and how to
+measure long-term societal impact. This sample document is intentionally short and simplified, and is
+included purely so that the demo RAG pipeline has something to retrieve and summarize.
+
+
