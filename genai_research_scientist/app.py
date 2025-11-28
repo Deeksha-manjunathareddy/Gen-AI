@@ -443,7 +443,7 @@ def home_tab():
                 config["retrieval_mode"] = "local" if "Local" in label else "llm"
             
             run_workflow(question.strip(), config)
-            st.experimental_rerun()
+            st.rerun()
         except Exception as e:
             st.error(
                 "An unexpected error occurred while running the pipeline. "
